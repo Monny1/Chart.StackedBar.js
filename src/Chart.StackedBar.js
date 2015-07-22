@@ -365,7 +365,7 @@
 				helpers.extend(this.datasets[datasetIndex], {
 					label : dataset.label || null,
 					fillColor : dataset.fillColor,
-					strokeColor : dataset.strokeColor,
+					strokeColor : dataset.strokeColor
 				});
 
 				helpers.each(dataset.data,function(dataPoint,index){
